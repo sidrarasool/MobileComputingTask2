@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Task2">
         <activity
+            android:name=".practiceActivity"
+            android:exported="true" />
+        <activity
             android:name=".practiceAcitvity"
             android:exported="true" />
         <activity
