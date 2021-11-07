@@ -39,4 +39,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Name" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rollNo"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/repoLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Repository Link"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/Practice"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
+        android:onClick="practice"
+        android:text="Practice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repoLink"
+        />
+
+    <Button
+        android:id="@+id/Test"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:text="Test"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toEndOf="@+id/Practice"
+        app:layout_constraintTop_toBottomOf="@+id/repoLink" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
