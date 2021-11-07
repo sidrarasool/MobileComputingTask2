@@ -26,7 +26,8 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:onClick="next"/>
 
     <Button
         android:id="@+id/Halqiyah_b"
@@ -38,7 +39,8 @@
         app:layout_constraintEnd_toStartOf="@+id/Lahatiyah_b"
         app:layout_constraintHorizontal_bias="0.577"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:onClick="Halqiyah"/>
 
     <Button
         android:id="@+id/Lahatiyah_b"
