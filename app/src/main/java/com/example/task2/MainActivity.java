@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void test(View view) {
+        intent = new Intent(MainActivity.this, ExamActivity.class);
+        startActivity(intent);
+    }
 }

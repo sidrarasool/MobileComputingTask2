@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".practiceActivity">
-
+    tools:context=".ExamActivity">
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView2_e"
         android:layout_width="181dp"
         android:layout_height="64dp"
         android:layout_marginTop="28dp"
@@ -19,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/next_b"
+        android:id="@+id/next_e"
         android:layout_width="327dp"
         android:layout_height="49dp"
         android:layout_marginTop="488dp"
@@ -29,24 +28,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2_e"
         />
 
     <Button
-        android:id="@+id/Halqiyah_b"
+        android:id="@+id/Halqiyah_e"
         android:layout_width="119dp"
         android:layout_height="51dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="40dp"
         android:onClick="Halqiyah"
         android:text="Halqiyah"
-        app:layout_constraintEnd_toStartOf="@+id/Lahatiyah_b"
+        app:layout_constraintEnd_toStartOf="@+id/Lahatiyah_e"
         app:layout_constraintHorizontal_bias="0.216"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/Lahatiyah_b"
+        android:id="@+id/Lahatiyah_e"
         android:layout_width="119dp"
         android:layout_height="51dp"
         android:layout_marginTop="40dp"
@@ -54,22 +53,22 @@
         android:onClick="Lahatiyah"
         android:text="Lahatiyah"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2_e" />
 
     <Button
-        android:id="@+id/Shajariyah_Haafiyah"
+        android:id="@+id/Shajariyah_Haafiyah_e"
         android:layout_width="wrap_content"
         android:layout_height="51dp"
         android:layout_marginTop="36dp"
         android:onClick="ShajariyahHaafiyah"
         android:text="Shajariyah- Haafiyah"
-        app:layout_constraintEnd_toStartOf="@+id/Ghunna"
+        app:layout_constraintEnd_toStartOf="@+id/Ghunna_e"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Lisaveyah" />
+        app:layout_constraintTop_toBottomOf="@+id/Lisaveyah_e" />
 
     <Button
-        android:id="@+id/Tarfiyah"
+        android:id="@+id/Tarfiyah_e"
         android:layout_width="wrap_content"
         android:layout_height="51dp"
         android:layout_marginTop="32dp"
@@ -77,35 +76,35 @@
         android:onClick="Tarfiyah"
         android:text="Tarfiyah"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Shafaweeyah" />
+        app:layout_constraintTop_toBottomOf="@+id/Shafaweeyah_e" />
 
     <Button
-        android:id="@+id/Niteeyah"
+        android:id="@+id/Niteeyah_e"
         android:layout_width="119dp"
         android:layout_height="51dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:onClick="Niteeyah"
         android:text="Nit-eeyah"
-        app:layout_constraintEnd_toStartOf="@+id/Shafaweeyah"
+        app:layout_constraintEnd_toStartOf="@+id/Shafaweeyah_e"
         app:layout_constraintHorizontal_bias="0.271"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Halqiyah_b" />
+        app:layout_constraintTop_toBottomOf="@+id/Halqiyah_e" />
 
     <Button
-        android:id="@+id/Lisaveyah"
+        android:id="@+id/Lisaveyah_e"
         android:layout_width="119dp"
         android:layout_height="51dp"
         android:layout_marginTop="32dp"
         android:onClick="Lisaveyah"
         android:text="Lisaveyah"
-        app:layout_constraintEnd_toStartOf="@+id/Asleeyah"
+        app:layout_constraintEnd_toStartOf="@+id/Asleeyah_e"
         app:layout_constraintHorizontal_bias="0.284"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Thalqeeyah" />
+        app:layout_constraintTop_toBottomOf="@+id/Thalqeeyah_e" />
 
     <Button
-        android:id="@+id/Ghunna"
+        android:id="@+id/Ghunna_e"
         android:layout_width="wrap_content"
         android:layout_height="51dp"
         android:layout_marginTop="32dp"
@@ -113,10 +112,10 @@
         android:onClick="Ghunna"
         android:text="Ghunna"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Asleeyah" />
+        app:layout_constraintTop_toBottomOf="@+id/Asleeyah_e" />
 
     <Button
-        android:id="@+id/Shafaweeyah"
+        android:id="@+id/Shafaweeyah_e"
         android:layout_width="wrap_content"
         android:layout_height="51dp"
         android:layout_marginTop="32dp"
@@ -124,10 +123,10 @@
         android:onClick="Shafaweeyah"
         android:text="Shafaweeyah"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Lahatiyah_b" />
+        app:layout_constraintTop_toBottomOf="@+id/Lahatiyah_e" />
 
     <Button
-        android:id="@+id/Asleeyah"
+        android:id="@+id/Asleeyah_e"
         android:layout_width="wrap_content"
         android:layout_height="51dp"
         android:layout_marginTop="32dp"
@@ -137,19 +136,19 @@
         android:onClick="Asleeyah"
         android:text="Asleeyah"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Tarfiyah" />
+        app:layout_constraintTop_toBottomOf="@+id/Tarfiyah_e" />
 
     <Button
-        android:id="@+id/Thalqeeyah"
+        android:id="@+id/Thalqeeyah_e"
         android:layout_width="wrap_content"
         android:layout_height="51dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:onClick="Thalqeeyah"
         android:text="Thalqeeyah"
-        app:layout_constraintEnd_toStartOf="@+id/Tarfiyah"
+        app:layout_constraintEnd_toStartOf="@+id/Tarfiyah_e"
         app:layout_constraintHorizontal_bias="0.241"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Niteeyah" />
+        app:layout_constraintTop_toBottomOf="@+id/Niteeyah_e" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

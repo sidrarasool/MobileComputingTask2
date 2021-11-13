@@ -82,6 +82,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toEndOf="@+id/Practice"
-        app:layout_constraintTop_toBottomOf="@+id/repoLink" />
+        app:layout_constraintTop_toBottomOf="@+id/repoLink"
+        android:onClick="test"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
